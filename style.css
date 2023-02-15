@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container 
+{
+    margin: 30px auto;
+    width : 50%;
+    border: 2px solid black;
+    display: flex;
+}
+
+.left{
+    width: 40%;
+    background-color: rgb(38, 51, 51);
+    color: white;
+}
+
+.right{
+    width: 60%;
+}
+
+.img{
+    width: 150px;
+    height: 150px;
+    margin: 40px auto 10px;
+   border-radius: 150px;
+   overflow: hidden;
+}
+img{
+   margin-top: -15px;
+}
+.name{
+    text-align: center;
+}
+.name p {
+    
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 10px;
+    
+}
+
+.name span{
+    font-size: 28px;
+    margin-top: 10px;
+  
+}
+
+.contact{
+    text-align: center;
+    margin-top: 20px;
+    font-size:30px;
+}
+
+.inline-icon {
+    vertical-align: bottom;
+    font-size: 40px !important;
+    margin-right: 10px;
+ }
+
+ hr{
+    border: 2px solid grey;
+    background-color:grey;
+    width: 99%;
+    margin-bottom: 10px;
+ }
+
+ .contactInfo{
+    margin-top :30px;
+    margin-bottom: 30px;
+ }
+ .contactInfo .inline-icon
+ {
+    vertical-align: bottom;
+    font-size: 20px !important;
+ }
+ .contactInfo i{
+   margin-left: 40px;
+   margin-right: 20px;
+ }
+ .educations{
+    text-align: center;
+ }
+
+ .educations i{
+    margin-right: 10px;
+    font-size: 30px;
+ }
+
+ .educations p{
+    font-size: 30px;
+ }
+
+ .educationInfo{
+    margin-top: 30px;
+    text-align: left;
+    margin-left: 40px;
+ }
+
+ .educationInfo p{
+    margin-top: 15px;
+ }
+ .profile{
+    margin-top: 30px;
+ }
+ .profile p{
+    font-size: 30px;
+    margin-left: 30px;
+ }
+ .profileInfo{
+    padding: 20px;
+ }
+
+ .workExperience{
+    margin-top: 20px;
+    margin-bottom: 10px;
+ }
+ .workExperience p{
+    margin-left: 30px;
+    font-size: 30px;
+ }
+
+ .workExperienceInfo{
+    padding: 20px;
+ }
+.skills{
+    margin-left: 30px;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.skillsInfo1{
+    margin-top: 15px;
+    margin-left :30px;
+    display: flex;
+}
+.two{
+    margin-left: 25px;
+}
+.emp{
+    height: 100px;
+}
