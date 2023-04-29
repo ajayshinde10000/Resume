@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 60%;
+    border : 2px solid black;
+    display: flex;
+    margin: 30px auto;
+}
+
+.left{
+    width: 35%;
+    background-color: red;
+}
+
+.right{
+    width: 65%;
+    background-color:green;
+    padding-left: 30px;
+}
+
+.one{
+    margin: 20px auto 10px;
+    width: 200px;
+    height: 200px;
+    border : 2px solid black;
+    border-radius: 40px;
+    color: white;
+    overflow: hidden;
+
+}
+
+.two{
+    border-top-right-radius: 150px;
+    border-top-left-radius: 150px;
+    background-color: black;
+    margin: -132px 30px 10px;
+    padding-top: 150px;
+    color: white;
+ 
+}
+
+.one img{
+    width: 200px;
+    height: 200px;
+}
+
+progress{
+    width: 80px;
+    margin-left:50px;
+}
+
+.heading{
+    font-size: 22px;
+    font-weight: bold;
+    margin-left: 25px;
+    margin-bottom: 10px;
+}
+
+.workSkillsInfo{
+    display: flex;
+    margin-top: 20px;
+}
+
+.skill p{
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.progress p{
+    margin-left: -30px;
+    margin-bottom: 10px;
+}
+
+.percent p{
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+i{
+    color: #fff;
+}
+
+.highlight{
+    color: rgb(253, 117, 117);
+    margin-top: 10px;
+}
+
+.contact p{
+    margin-left: 10px;
+}
+h1{
+    font-size: 38px;
+    padding-top: 60px;
+}
+.sub{
+    font-size: 22px
+}
+
+.right hr{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.education{
+    display: flex;
+    margin-top: 30px;
+}

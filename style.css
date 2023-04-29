@@ -7,7 +7,10 @@
     margin: 30px auto;
     width : 50%;
     border: 2px solid black;
+    border-radius: 3px;
     display: flex;
+    min-width: 700px;
+    max-width: 900px;
 }
 
 .left{
@@ -28,7 +31,8 @@
    overflow: hidden;
 }
 img{
-   margin-top: -15px;
+   margin-top: -22px;
+   margin-left: -10px;
 }
 .name{
     text-align: center;
@@ -139,4 +143,9 @@ img{
 }
 .emp{
     height: 100px;
+}
+
+::selection{
+   background-color: rgb(150, 214, 214);
+   color: rgb(0, 0, 0);
 }
